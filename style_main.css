@@ -1,0 +1,218 @@
+
+body{
+    font-family: "Open Sans", sans-serif;
+    background-color: #00203F;
+    
+    }
+    .head{
+        background-color: #E4DCCF;
+        border: 1px solid;
+        width: 75%;
+        height: 160px;
+    position: absolute;
+    left:10%;
+    top: 5%;
+    display: flex;
+        justify-content: space-between;
+    }
+    h1{
+        font-size: 3rem;
+        color: #00203F;
+    }
+    h2{
+        font-size: 5rem;
+        color: #00203F;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-200%);
+    }
+    a {
+        text-decoration: none;
+      }
+    .col1, .col2, .col3, .col4, .col5{
+        position: relative;
+        top: 8%;
+        height: 130px;
+        width: 300px;
+        color: #E4DCCF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .col{
+        border: 1px solid;
+        border-radius: 50px;
+        border-color:#00203F;
+    }
+    .col5{
+        background-image: url("IMAGE/llogo.png");
+        background-repeat:no-repeat ;
+    
+    background-position:20%;
+    }
+    
+    .slides{
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        height: 170%;
+        width: 75%;
+        display: flex;
+    }
+    .name{
+    position: absolute;
+    left: 1800px;
+    top: 900px;
+    }
+    .commercial,.common,.industrial,.literary,.scientific{
+        transition: filter 0.3s;
+        filter: blur(10px);
+    
+    }
+    .industrial{
+        background-image: url("image/industrial.jpg") ;
+        background-repeat:no-repeat ;
+        background-size: cover;
+        border: 1px solid #E4DCCF;
+        position: absolute;
+        top: 10%;
+        left: 5%;
+        width: 700px;
+        height: 35%;
+        border-radius: 70px;
+        }
+    .industrial:hover{
+        filter: blur(0px);
+    
+    }
+    .scientific:hover{
+        filter: blur(0px);
+    }
+    .commercial:hover{
+        filter: blur(0px);
+    }
+    
+    .common:hover{
+        filter: blur(0px);
+    }
+    
+    .literary:hover{
+        filter: blur(0px);
+    }
+    
+    
+    .text1{
+        position: absolute;
+        top: 30%;
+        left: 17%;
+    
+    }
+    .text2{
+        position: absolute;
+        top: 30%;
+        left: 47%;
+    
+    }
+    .text3{
+        position: absolute;
+        top: 30%;
+        left: 77%;
+    
+    }
+    .text4{
+        position: absolute;
+        top: 70%;
+        left: 17%;
+    
+    }
+    .text5{
+        position: absolute;
+        top: 70%;
+        left: 47%;
+    
+    }
+    
+    
+    .title{
+        color: #E4DCCF;
+        filter:blur(0px);
+        z-index: 1;
+    }
+    
+    .scientific {
+        
+        background-image: url("image/scientific.jpg");
+    background-repeat:no-repeat ;
+    background-size: cover;
+        border: 1px solid #E4DCCF;
+        position: absolute;
+        width: 700px;
+        top: 10%;
+        left: 35%;
+        height: 35%;
+        border-radius: 70px;
+        filter: blur(10%);
+    }
+    .scientific :hover{
+    
+        filter: blur(0);
+    }
+    
+    .literary{
+            background-image: url("image/Literary.jpg");
+            background-repeat:no-repeat ;
+            background-size: cover;
+        border: 1px solid #E4DCCF;
+        position: absolute;
+        width: 700px;
+        top: 10%;
+        left: 65%;
+        height: 35%;
+        border-radius: 70px;   
+        filter: blur(10%);
+    }
+    .literary:hover{
+    
+        filter: blur(0);
+    }
+    
+    .commercial{
+            background-image: url("image/comm.png");
+            background-repeat:no-repeat ;
+            background-size:cover;
+        border: 1px solid #E4DCCF;
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        width: 700px;
+        height: 35%;
+        border-radius: 70px;
+    }
+    .common{
+        background-image: url("image/shared.webp");
+        background-repeat:no-repeat ;
+        background-size: cover;
+        
+    
+        border: 1px solid #E4DCCF;
+        position: absolute;
+        top: 50%;
+        left: 35%;
+        width: 700px;
+        height: 35%;
+        border-radius: 70px;
+    }
+    
+    .col:hover{
+        color: rgb(255, 255, 255);
+    }
+    .material-symbols-outlined{
+        position: absolute;
+        right: 400px;
+        top: 110px;
+        
+        font-size: 150px !important;
+        color: #E4DCCF;
+    }
+    
