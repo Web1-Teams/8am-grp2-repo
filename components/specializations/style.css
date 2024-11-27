@@ -1,0 +1,100 @@
+body{
+    background: linear-gradient(black,rgb(65, 0, 0),rgb(150, 0, 0),red) no-repeat fixed ;
+}
+.nav_container{
+    background: rgb(150, 0, 0,0.1);
+    height: 10rem;
+    width:99%;
+    border-radius: 20px;
+    margin-left:10px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav_container a {
+    text-decoration: none;
+    position: relative;
+    text-align: center;
+    transition: transform 0.3s ease; 
+}
+.nav_container a::after {
+    content: ''; 
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    width: 0; 
+    height: 3px; 
+    background-color: white; 
+    transition: width 0.3s ease; 
+}
+.nav_container a:hover::after {
+    width: 100px; 
+}
+.contact,.sign_up,.login,.specializations,.our_team,.comments,.logo{
+width: 20px;
+
+}
+.nav_container .logo{
+    width: 200px;
+}
+.main_container{
+    position: absolute;
+    display: grid;
+
+width:99%;
+height: 300%;
+grid-template-columns: 33% 33% 33%;
+
+} 
+.agricultural,.commercial,.entrepreneurship_and_business,.sharia,.scientific,.literary,.industrial,.hotel,.home_economics{
+opacity: 0.7;
+    border: 1px solid white;
+    margin: 20px;
+    height: 80%;
+    border-radius: 20px;
+    background:fixed no-repeat;
+    background-size: cover;
+}
+.agricultural{
+    background-image: url(image/agricultural.jpg);
+}
+.commercial{
+    background-image: url(image/commercial.jpg) ;
+}
+.entrepreneurship_and_business{
+    background-image: url(image/entrepreneurship_and_business.jpg);
+}
+.sharia{
+    background-image: url(image/sharia.jpg);
+}
+.scientific{
+    background-image: url(image/scientific.jpg);
+}
+.literary{
+    background-image: url(image/Literary.jpg);
+}
+.industrial{
+    background-image: url(image/industrial.jpg)
+}
+.hotel{
+    background-image: url(image/hotel.jpg);
+}
+.home_economics{
+    background-image: url(image/home_economics.jpg);
+}
+a:hover {
+    opacity: 1;
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    text-decoration: none;
+    border-radius: 8px;
+    color: rgb(172, 50, 50);
+    font-weight:bold;
+    height: 150px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
