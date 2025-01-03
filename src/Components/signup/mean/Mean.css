@@ -1,0 +1,14 @@
+
+.main{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    border-radius: 30px;
+    border:none;
+    background-color:#d9d9d9;
+    width: 60%;
+    height: 60%;
+    display: flex;
+    background-size: cover;
+    }
+    
