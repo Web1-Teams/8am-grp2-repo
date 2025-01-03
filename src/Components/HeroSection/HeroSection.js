@@ -10,10 +10,7 @@ const HeroSection = () => {
             </video>
             <div className="content">
                 <h1>ابدأ تعلمك اليوم، من أي مكان وفي أي وقت</h1>
-                <div className="search-bar">
-                    <input type="text" placeholder="........عن ماذا تبحث"/>
-                    <button>ابحث عن المساق</button>
-                </div>
+                
             </div>
         </div>
     );

@@ -1,0 +1,82 @@
+body{
+    background-color: #545454;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p1{
+    color: azure;
+    font-weight: bold;
+    font-size: 3rem;
+    position: absolute;
+    top: 1rem;
+    right: 10rem;
+    background-color:#02306f;
+}
+.p2{
+    font-size: 2rem;
+    color: azure;
+    font-family: "Reem Kufi";
+    position: absolute;
+    top: 6rem;
+    right: 15rem;
+    background-color:#02306f;
+
+}
+.main_container h2{
+    position: relative;
+    top: 15rem;
+}
+
+
+.main_container{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+}
+
+.specializations_container{
+    position: absolute;
+    top: 10rem;
+    display: grid;
+    width:100%;
+    height: 60%;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.entrepreneurship_and_business,.scientific,.literary,.industrial{
+    margin:2rem;
+    height: 80%;
+    border-radius: 2rem;
+    background: no-repeat ;
+    background-size: cover;
+}
+
+.entrepreneurship_and_business{
+    background-image: url(/public/photo/commercial.jpg);
+}
+.scientific{
+    background-image: url(/public/photo/scientific.jpg);
+}
+.literary{
+    background-image: url(/public/photo/Literary.jpg);
+}
+.industrial{
+    background-image: url(/public/photo/industrial.jpg)
+}
+.main_container a:hover {
+    opacity: 1;
+    box-shadow:0 0 3rem 2rem  #02306f;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.033) ;
+}
+.specializations_container a{ z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight:bold;
+
+}
