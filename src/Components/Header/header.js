@@ -6,8 +6,8 @@ const Header = () => {
         <header>
             <div className="container">
                 <div className="logo">
-                    <img src="/photo/rb_2148192915.png" alt="Website Logo"/>
-                    <h1>Website Tawjihikum</h1>
+                    <img src="/photo/logo.jpg" alt="Website Logo"/>
+                    <h1>Tawjihikum Website </h1>
                 </div>
             </div>
         </header>
